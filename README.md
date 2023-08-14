@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/marcoolsen/PlayWright-PoC/actions/workflows/playwright.yml/badge.svg)](https://github.com/marcoolsen/PlayWright-PoC/actions/workflows/playwright.yml)
+
 # PlayWright-PoC
 
 ## Dependencies
