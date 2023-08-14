@@ -1,0 +1,27 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-ui": "npx playwright test tests/ui/",
+    "test-ui-c": "npx playwright test tests/ui/specs/ --project=chromium",
+    "test-ui-h": "npx playwright test tests/ui/specs/ --headed",
+    "test-api": "npx playwright test tests/api/requests/"
+  },
+  "keywords": [],
+  "author": "Marco Olsen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoolsen/PlayWright-PoC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcoolsen/PlayWright-PoC/issues"
+  },
+  "homepage": "https://github.com/marcoolsen/PlayWright-PoC#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0",
+    "dotenv": "^16.1.4"
+  }
+}
