@@ -2,6 +2,8 @@
 
 # PlayWright-PoC
 
+Playwright framework with Typescript for API and Frontend testing
+
 ## Dependencies
 
 - Playwright v1.35.1
